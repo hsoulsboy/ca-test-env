@@ -44,7 +44,7 @@ If you want to deploy another PKI or overwrite your last one, edit `ca-test-env.
 sudo systemctl stop ca-test-env.service
 ```
 
-Then, install it once more:
+Then, install it again:
 ```bash
 sudo ./install.sh
 ```
