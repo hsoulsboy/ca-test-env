@@ -1,6 +1,6 @@
-# CA Test Env
+# Certificate Authority Test Environment
 
-Create your own Certificate Authority test environment. This project makes use of a systemd service to setup a PKI infrastructure.
+This projects allows you to create your own certificate authority test environment by setting a PKI infrastructure through a systemd service.
 
 ## Getting Started
 
@@ -10,7 +10,7 @@ git clone https://github.com/hsoulsboy/ca-test-env
 cd ca-test-env/
 ```
 
-Now, edit `ca-test-env.conf` configuration file with the desired values for your PKI. The file has the following fields:
+Now, edit `ca-test-env.conf` with the desired values for your PKI. The file has the following fields:
 ```
 - pki_application_directory: Directory where your PKI infrastructure will be deployed, e.g., /tmp/froogle-pki
 - configure_intermediate_ca: Boolean value for if you either want to setup an Intermediate CA along with the Root CA or not, e.g., True
